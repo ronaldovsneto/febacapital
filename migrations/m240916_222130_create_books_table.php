@@ -20,6 +20,8 @@ class m240916_222130_create_books_table extends Migration
             'price' => $this->decimal(10, 2),
             'inventory' => $this->integer(),
         ]);
+
+        $this->createIndex('{{%idx-books-isbn}}', '{{%books}}', 'isbn', true);
     }
 
     /**

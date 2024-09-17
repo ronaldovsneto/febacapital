@@ -6,7 +6,6 @@ use app\models\User;
 use app\services\JwtService;
 use Yii;
 use yii\rest\Controller;
-use yii\web\BadRequestHttpException;
 use yii\web\UnauthorizedHttpException;
 
 class AuthController extends Controller
