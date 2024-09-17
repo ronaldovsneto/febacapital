@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'adminEmail' => 'admin@example.com',
+    'senderEmail' => 'noreply@example.com',
+    'senderName' => 'Example.com mailer',
+    'jwtSecret' => '89ca01261343f515a63744b5d4f33cc6a2d3d206fa49d4c034afbd3cea981dd27f07a760d972d6423e065b1e5bd4c66f24717060c426e9a4e7bc50d5dcc8c777fadc181a4daef2c4c2c85f239ab65fddb0ae39e7e59a4a9bf5625cc2dd60882d85ef29773d377841b33b9f2187f737bb5353f70839452b491ab8b5fb17cfb37e45a731ecb07027ea113f6327f8f36e69d257c75301f7153624cb8bc3d2cf4299e98cc14ba74ccfc15b2ce170c2167c647139524b36325aaa764f285427aeb1bbdffca0cf3fe4dba0468a5e733c2770cea2aa8fd3c1807594b37235904d09f86b65972af601e53bb7f16f8b7ad9bbbae1437164faba694a0667b4bc428fddce7f'
+];
